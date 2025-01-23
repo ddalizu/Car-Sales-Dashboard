@@ -1,0 +1,94 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-color: #465a6b; ;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.header a {
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main {
+  padding: 0px;
+}
+
+#dashboard{
+margin-bottom: 30px;
+
+}
+
+.section {
+  margin-bottom: 20%;
+  color: white;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.metric {
+  background-color: rgb(211,211,211);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  flex-basis: calc(33.33% - 20px);
+}
+#recentSales {
+  list-style-type: none;
+  padding: 0;
+}
+
+#recentSales li {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(211,211,211);
+  height: auto;
+}
+
+.continent-container {
+  margin-top: 20px;
+  height: 25%;
+  width: 33.3%;
+  color: black; 
+}
+
+canvas {
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #ebe5e5;
+  color: #333;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
