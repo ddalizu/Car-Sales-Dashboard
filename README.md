@@ -1,8 +1,8 @@
-#**Royal Motors Employee Dashboard**
+# **Royal Motors Employee Dashboard**
 The Royal Motors Employee Dashboard is a comprehensive web application designed to track and display sales performance across multiple continents (Africa, Europe, and Asia). The dashboard provides insights into daily sales, recent sales, total revenue, and sales performance metrics. It also includes interactive charts for visualizing data trends using 7-day moving averages.
 
-###Features
-#####Dashboard Metrics:
+### Features
+##### Dashboard Metrics:
 
 Total Sales.
 Total Revenue (formatted in USD).
@@ -12,27 +12,27 @@ Interactive Sales Input:
 
 Allows employees to input daily sales data for Africa, Europe, and Asia.
 Real-time updates to the charts and metrics.
-###Data Visualization:
+### Data Visualization:
 
 Line charts showing daily sales and their 7-day moving averages for each continent.
 Custom dynamic chart colors.
 Backend Integration:
 
 Fetches and posts data via a REST API (/api/data, /api/sales).
-###Technologies Used
-#####Frontend:
+### Technologies Used
+##### Frontend:
 
 HTML5, CSS3.
 JavaScript (ES6+).
 Chart.js for interactive charts.
-#####Backend:
+##### Backend:
 
 Node.js/Express.js for API endpoints.
 Fetch API for communication with the backend.
 ###Installation and Setup
 ####To run the project locally, follow these steps:
 
-###Prerequisites
+### Prerequisites
 
 Node.js and npm installed on your system.
 A modern web browser (e.g., Chrome, Edge, or Firefox).
@@ -61,7 +61,7 @@ The app will run at http://localhost:3000.
 Open the App:
 
 Visit http://localhost:3000 in your browser.
-###Usage
+### Usage
 Navigate to the dashboard in your browser.
 Use the input fields under each continent to enter daily sales data and the corresponding date.
 ####View updated metrics, including:
@@ -85,7 +85,7 @@ Ensures valid input for sales numbers and dates before submitting.
 Error Handling:
 
 Displays errors when API calls fail or invalid data is submitted.
-###Future Enhancements
+### Future Enhancements
 Add authentication and role-based access for employees.
 Include historical comparisons for performance metrics.
 Export charts and reports to PDF or Excel.
